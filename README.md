@@ -18,3 +18,11 @@
 ``` 
 
 ## Instalar extensão SqliteViewer no VSCode
+
+## Adding user usgin flask shell
+`flask shell`
+```
+user = User(username="admin", password="123")
+db.session.add(user)
+db.commit()
+```
