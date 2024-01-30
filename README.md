@@ -24,5 +24,12 @@
 ```
 user = User(username="admin", password="123")
 db.session.add(user)
-db.commit()
+db.session.commit()
+```
+
+## Drop e Create DB
+`flask shell`
+```
+db.drop_all()
+db.create_all()
 ```
